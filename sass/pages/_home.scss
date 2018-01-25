@@ -1,0 +1,109 @@
+.section-intro {
+    height: 100vh;
+    background-image: url('../img/bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+    position: relative;
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.section-about {
+
+}
+
+.section-services {
+
+    &__head {
+        text-align: center;
+        background-image: linear-gradient(to right, rgba($color-black, .3), rgba($color-black, .3)), url('../img/bg-2.jpg');
+        height: 40vh;
+        background-size: cover;
+        background-attachment: fixed;        
+        position: relative;
+    }
+
+    &__text-box {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.section-contact {
+    position: relative;
+    height: 70vh;
+    background-image: url('../img/bg-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+
+    &__content-box {
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__form {
+        width: 100%;
+    }
+
+    &__group-1 {
+        float: left;
+        width: 49%;
+        margin-right: 1%;
+    }
+
+    &__group-2 {
+        float: left;
+        width: 49%;
+        margin-left: 1%;
+    }
+
+    &__input {
+        display: block;
+        height: 4rem;
+        width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: .6rem 1.2rem;
+        border-radius: 5px;
+        background-color: rgba($color-white, .5);
+
+        &::placeholder {
+            color: $color-grey-dark-3; 
+            font-size: 1.4rem;           
+        }
+    }
+
+    &__textarea {
+        display: block;
+        height: 14rem;
+        width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: .6rem 1.2rem;
+        border-radius: 5px;
+        background-color: rgba($color-white, .5);
+
+        &::placeholder {
+            color: $color-grey-dark-3; 
+            font-size: 1.4rem;           
+        }
+    }
+
+    &__button {
+        display: block;
+    }
+}

@@ -1,0 +1,41 @@
+.header {
+    font-size: 2rem 0;
+    background-color: $color-grey-dark-3;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+
+    &__navigation {
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+
+        &:not(:last-child) {
+            margin-right: 1.8em;
+        }
+    }
+
+    &__link:link,
+    &__link:visited {
+        color: $color-white;
+        text-decoration: none;
+        display: block;
+        padding: 1rem 3rem;
+        font-size: 2rem;
+        border: 1px solid $color-grey-medium-1;
+    }
+
+    &__link:hover,
+    &__link:active {
+        background-color: $color-grey-dark-5;
+    }
+}

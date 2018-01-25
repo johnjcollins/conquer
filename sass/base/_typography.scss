@@ -2,5 +2,100 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.7;
-    color: $color-grey-dark;
+    color: $color-grey-dark-2;
+}
+
+.heading-primary {
+    color: $color-white;
+
+    &--main {
+        display: block;
+        font-size: 7rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px $color-black;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2.5rem;
+        font-weight: 300;
+        letter-spacing: 4px;
+        text-shadow: 1px 1px $color-grey-dark-2;
+    }
+}
+
+.heading-secondary {
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: $color-white;
+    text-shadow: 2px 2px $color-grey-medium-2;
+
+}
+
+.heading-tertiary {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $color-grey-medium-2;
+
+    &--green {
+        color: $color-green-dark;
+    }
+
+    &--blue {
+        color: $color-blue-dark;
+    }
+}
+
+.paragraph {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+
+    &--white {
+        color: $color-white;
+    }
+
+    &--text-medium {
+        font-size: 1.8rem;
+    }
+
+    &--background-light {
+        background-color: rgba($color-white, .5);
+        border-radius: 5px;
+        padding: 1.5rem;
+    }
+
+    &--italic-large {
+        color: $color-grey-medium-2;
+        font-weight: 400;
+        font-size: 3.2rem;
+        font-style: italic;
+    }
+
+    &--italic-small {
+        color: $color-grey-medium-3;
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    &--copyright {
+        font-size: 1.2rem;
+        color: $color-grey-medium-2;
+    }
+}
+
+.text-link {
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        color: $color-blue-dark;        
+    }
+
+    &:hover,
+    &:active {
+        color: $color-blue-light;        
+    }
 }

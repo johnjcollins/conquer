@@ -1,0 +1,74 @@
+.button {
+
+    &:link,
+    &:visited {
+        font-size: 1.8rem;
+        padding: 1rem 3rem;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 1px solid $color-grey-medium-2;
+        color: $color-grey-medium-2;
+        background-color: $color-grey-light-4;
+    }
+
+    &:hover,
+    &:active {
+        background-color: $color-grey-light-1;
+    }
+
+    &--green:link,
+    &--green:visited {
+        color: $color-white;
+        background-color: $color-green-dark;
+        border-color: $color-green-dark;
+    }
+
+    &--green:hover,
+    &--green:active {
+        color: $color-white;
+        background-color: $color-green-light;
+        border-color: $color-green-light;
+    }
+
+    &--blue:link,
+    &--blue:visited {
+        color: $color-white;
+        background-color: $color-blue-dark;
+        border-color: $color-blue-dark;
+    }
+
+    &--blue:hover,
+    &--blue:active {
+        color: $color-white;
+        background-color: $color-blue-light;
+        border-color: $color-blue-light;
+    }
+
+    &--red:link,
+    &--red:visited {
+        color: $color-white;
+        background-color: $color-red-dark;
+        border-color: $color-red-dark;
+    }
+
+    &--red:hover,
+    &--red:active {
+        color: $color-white;
+        background-color: $color-red-light;
+        border-color: $color-red-light;
+    }
+
+    &--submit {
+        font-size: 1.8rem;
+        color: $color-white;
+        padding: 1rem 3rem;
+        border-radius: 1rem;
+        background-color: $color-grey-dark-1;
+
+        &:hover {
+            background-color: $color-white;
+            color: $color-black;
+        }
+    }
+}

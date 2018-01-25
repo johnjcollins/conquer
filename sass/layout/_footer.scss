@@ -1,0 +1,8 @@
+.footer {
+    text-align: center;
+
+    &__line {
+        height: 1px;
+        color: $color-grey-medium-3;
+    }
+}
